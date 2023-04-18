@@ -1,0 +1,37 @@
+.user-item {
+    display: flex;
+    border: 1px solid #C0BFBF;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
+
+    &_img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+
+    &_btn {
+        justify-items: flex-end;
+        margin: 0 0 0 auto;
+        width: 100px;
+    }
+
+    &_icon  {
+        border: 2px solid #5558FF;
+        border-radius: 50%;
+        color: #5558FF;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 30px;
+    }
+    &_icon,
+    &_img {
+        margin-right: 20px;
+        object-fit: cover;
+    }
+}

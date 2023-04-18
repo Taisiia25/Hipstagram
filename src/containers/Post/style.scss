@@ -1,0 +1,88 @@
+.post {
+    flex: 0 0 30%;
+    width: 30%;
+    margin: 10px;
+
+    &_item {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        cursor: pointer;
+    }
+
+    &_modal {
+        width: 80% !important;
+       
+        .ant-modal-footer, .ant-modal-header, .ant-modal-close {
+            display: none;
+        }
+        .ant-modal-content {
+            padding: 0;
+        }
+    }
+
+    &_content {
+        display: flex;
+        flex-direction: row;
+
+        &_picture {
+            flex: 2;
+            max-width: 60%;
+        }
+
+        &_detail {
+            display: flex;
+            flex: 1;
+            flex-direction: column;
+
+           &_main {
+                display: flex;
+                justify-content: space-between;
+                height: 20%;
+                padding: 30px 20px 30px 20px;
+                align-items: center;
+                border-bottom: 2px solid #D4D4D4;
+            
+
+                &_logo {
+                    width: 120px;
+                    height: 120px;
+                    border-radius: 50%;
+                    object-fit: cover;
+                    
+                }
+
+                &_login {
+                    text-align: center;
+                    width: calc(100% - 300px);
+                    max-width: calc(100% - 300px);
+                    font-size: 24px;
+                    word-break: break-word;
+                }
+                &_btn {
+                    text-align: center;
+                    width: 150px;
+                    height: 80px;
+                    font-size: 24px;
+                    font-weight: 700;
+                }
+           }
+           
+        }
+        &_title  {
+            padding: 10px 10px 30px 20px;
+            margin: 0  ;
+            display: flex;
+            color: #4D88ED;
+            font-size: 20px;
+            font-weight: 700;
+        }
+        &_title span {
+            margin: 0 0 0 5px ;
+            display: flex;
+            color: rgb(26, 23, 23);
+            font-weight: 400;
+        }
+        
+    }
+}

@@ -1,0 +1,21 @@
+.error_message {
+    color: red;
+    margin-left: 60px;
+}
+.form_login {
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+
+    &-input {
+        width: 100%;
+    }
+
+    &-button {
+        margin: 0 auto;
+    }
+}
+
+.header_sign {
+    text-align: center;
+}

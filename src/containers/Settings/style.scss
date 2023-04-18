@@ -1,0 +1,66 @@
+.header-settings {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    color: #2f6edd;
+    padding: 10px 240px;
+}
+.settings {
+    
+    padding: 10px 200px;
+    display: flex;
+    align-items: center;
+
+    &_avatar {
+        padding: 0 100px 20px 50px;
+
+        &_img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+    
+        &_icon {
+            border: 5px solid #4D88ED;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            color: #4D88ED;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 100px;
+            margin-bottom: 20px;
+        }
+        &_button {
+            margin-left: 20px; 
+        }
+    }
+
+    &_form_personal-info {
+        display: flex;
+        flex-direction: column;
+        width: 330px;
+        border-right: 1px solid #D4D4D4;
+        padding-right: 70px;
+
+        &_button  {
+            width: 150px;
+            margin-left: 110px;
+        }
+        
+    }
+    &_form_password {
+        width: 300px;
+        margin-left: 70px;
+
+        &_button  {
+            width: 150px;
+            margin-left: 150px;
+        }
+    }
+
+    
+}

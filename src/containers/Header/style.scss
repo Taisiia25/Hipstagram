@@ -1,0 +1,42 @@
+.header {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    background-color: #4D88ED;
+    margin-top: 0;
+    color: white;
+    padding: 10px 0;
+
+    &_login {
+        font-size: 30px;
+    }
+
+    &_options {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 80%;
+        padding: 20px;
+        margin: 0 auto;
+
+        &_search {
+            margin-right: 20px;
+        }
+
+        &_profile-icon svg {
+            font-size: 30px;
+            margin-right: 20px;
+            color: white;
+        }
+        &_logout-icon svg {
+            font-size: 30px;
+        }
+        &_title {
+            color: white;
+            text-decoration: none;
+
+        }
+    }
+
+    
+}
